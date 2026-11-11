@@ -1,0 +1,16 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local editor files
+*.swp
+*.swo
+*~
+
+# Build artifacts
+/a.out
+/myshell
+*.o
+*.dSYM/

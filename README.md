@@ -1,5 +1,3 @@
-# README
-
 # myshell — Простая реализация командной оболочки на C
 
 Небольшой, но полнофункциональный интерпретатор командной строки, написанный на языке C. Поддерживает конвейеры, перенаправления ввода/вывода, встроенные команды и корректную обработку ошибок.
@@ -54,13 +52,13 @@
 ### Команда сборки
 
 ```bash
-gcc -Wall -Wextra -O2 -o myshell myshell.c
+gcc -Wall -Wextra -O2 -o myshell DZ7.c
 ```
 
 Для отладочной версии:
 
 ```bash
-gcc -Wall -Wextra -g -fsanitize=address -o myshell myshell.c
+gcc -Wall -Wextra -g -fsanitize=address -o myshell DZ7.c
 ```
 
 Рекомендуется использовать флаг `-Wall -Wextra`, чтобы поймать предупреждения. Код собирается без единого warning'а.
